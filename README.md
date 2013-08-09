@@ -10,6 +10,7 @@ Jquery Grid Resizer resizes grid columns for even spacing
 * `containers` is the jQuery object referencing the container element(s) - i.e. the row
 * `childSelector` is a string selector that finds the column elements within the container element. It is applied using `container.find(childSelector)` so don't include the container in the selector
 * `margin` is the gutter you want between each column
+* `widthCallback` allows you to do further dom manipulations using the child and container width values
 
 ### Example
 
